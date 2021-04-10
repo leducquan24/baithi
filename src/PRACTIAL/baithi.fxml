@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1360.0" prefWidth="1739.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="79.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reservation ID" />
+      <Text layoutX="76.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PassengerName" />
+      <Text layoutX="73.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+      <Text layoutX="79.0" layoutY="1023.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of departure and return" />
+      <Text layoutX="74.0" layoutY="803.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" />
+      <TextArea layoutX="73.0" layoutY="175.0" prefHeight="75.0" prefWidth="372.0" />
+      <TextArea layoutX="73.0" layoutY="382.0" prefHeight="75.0" prefWidth="372.0" />
+      <TextArea layoutX="73.0" layoutY="820.0" prefHeight="68.0" prefWidth="359.0" />
+      <TextArea layoutX="79.0" layoutY="619.0" prefHeight="75.0" prefWidth="359.0" />
+      <TextArea layoutX="74.0" layoutY="1051.0" prefHeight="75.0" prefWidth="372.0" />
+      <Button mnemonicParsing="false" text="Button" />
+      <Button layoutX="795.0" layoutY="1208.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="577.0" layoutY="1208.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="361.0" layoutY="1208.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="93.0" layoutY="1208.0" mnemonicParsing="false" text="Button" />
+      <TableView layoutX="605.0" layoutY="16.0" prefHeight="1121.0" prefWidth="968.0">
+        <columns>
+          <TableColumn prefWidth="250.0" text="Add reservation." />
+          <TableColumn prefWidth="181.0" text="Modify passenger records" />
+            <TableColumn prefWidth="243.0" text="Display passenger records" />
+            <TableColumn prefWidth="293.0" text="Exit" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
